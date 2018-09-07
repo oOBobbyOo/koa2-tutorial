@@ -1,0 +1,20 @@
+.header,
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header nav li {
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.header nav li a {
+  text-decoration: underline;
+}
+
+.container h1 {
+  font-size: 32px;
+}

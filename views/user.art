@@ -1,0 +1,9 @@
+{{extend './common/layout.art'}}
+
+{{block 'title'}}user{{/block}}
+
+{{block 'content'}}
+  <h1>user page</h1>
+  <p>{{content}}</p>
+{{/block}}
+

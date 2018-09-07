@@ -1,0 +1,42 @@
+{
+  "name": "koa2-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "service:mysql": "node services/mysql.js",
+    "service:seq": "node services/mysql_seq.js",
+    "service:seu": "node services/mysql_seu.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.0",
+    "fs": "^0.0.1-security",
+    "ip": "^1.1.5",
+    "koa": "^2.5.2",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-jsonp": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.9.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^3.0.4",
+    "mongodb": "^3.1.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.5.3",
+    "node-excel-export": "^1.4.4",
+    "node-xlsx": "^0.12.1",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.2",
+    "tedious": "^2.6.4"
+  }
+}

@@ -1,0 +1,8 @@
+{{extend './common/layout.art'}}
+
+{{block 'title'}}{{title}}{{/block}}
+
+{{block 'content'}}
+  <h1>home page</h1>
+{{/block}}
+

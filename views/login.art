@@ -1,0 +1,14 @@
+{{extend './common/layout.art'}}
+
+{{block 'title'}}login{{/block}}
+
+{{block 'content'}}
+  <h1>login page</h1>
+   <p>{{content}}</p>
+   <form action="/register" method="post">
+    <input type="text" name="name" placeholder="请输入用户名: test">
+    <input type="password" name="password" placeholder="请输入密码: 123456">
+    <button>submit</button>
+  </form>
+{{/block}}
+

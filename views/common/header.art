@@ -1,0 +1,16 @@
+<header class="header">
+  <nav>
+    <li>
+      <a href="/">home</a>
+    </li>
+    <li>
+      <a href="/login">login</a>
+    </li>
+    <li>
+      <a href="/user">user</a>
+    </li>
+     <li>
+      <a href="/user/11111">user /:id</a>
+    </li>
+  </nav>
+</header>
